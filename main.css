@@ -63,7 +63,7 @@ h1, h2 {
     border-right: 3px solid #eee;
   }
   to {
-    width: 65%;
+    width: 100%;
     border-right: 0;
   }
 }
