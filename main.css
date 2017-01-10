@@ -2,9 +2,14 @@ html, body { height: 100%; }
 body {
   background-color: #222;
   font-family: 'Inconsolata', monospace;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.25;
   color: #eee;
+}
+@media screen only and (min-width: 400px) {
+  body {
+    font-size: 16px;
+  }
 }
 .content {
   display: flex;
