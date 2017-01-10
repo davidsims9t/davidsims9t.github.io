@@ -12,6 +12,7 @@ body {
   justify-content: center;
   width: 80%;
   height: 100%;
+  margin: 0 auto;
 }
 a {
   color: #E74C3C;
@@ -24,11 +25,11 @@ h1, h2 {
   animation: typing 6s steps(40, end) forwards;
   display: block;
   overflow: hidden;
-  white-space: nowrap;
-  animation-delay: 2s;
+  /*white-space: nowrap;*/
   border-right: 0;
   margin-bottom: 10px;
   width: 0;
+  text-align: justify;
 }
 .past {
   animation-delay: 8s;
