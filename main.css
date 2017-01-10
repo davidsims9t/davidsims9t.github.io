@@ -2,7 +2,7 @@ html, body { height: 100%; }
 body {
   background-color: #222;
   font-family: 'Inconsolata', monospace;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.25;
   color: #eee;
 }
