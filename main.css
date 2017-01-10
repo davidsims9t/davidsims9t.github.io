@@ -22,7 +22,7 @@ h1, h2 {
   font-size: inherit;
 }
 .caption {
-  animation: typing 6s steps(40, end) forwards;
+  animation: typing 4s steps(40, end) forwards;
   display: block;
   overflow: hidden;
   white-space: nowrap;
@@ -31,13 +31,13 @@ h1, h2 {
   width: 0;
 }
 .occupation {
-  animation-delay: 6s;
+  animation-delay: 4s;
 }
 .past {
-  animation-delay: 12s;
+  animation-delay: 8s;
 }
 .current {
-  animation-delay: 18s;
+  animation-delay: 12s;
 }
 .social-media {
   opacity: 0;
@@ -63,7 +63,7 @@ h1, h2 {
     border-right: 3px solid #eee;
   }
   to {
-    width: 100%;
+    width: 60%;
     border-right: 0;
   }
 }
