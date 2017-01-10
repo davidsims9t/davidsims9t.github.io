@@ -2,9 +2,14 @@ html, body { height: 100%; }
 body {
   background-color: #222;
   font-family: 'Inconsolata', monospace;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.25;
   color: #eee;
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
 }
 .content {
   display: flex;
@@ -25,7 +30,6 @@ h1, h2 {
   display: block;
   border-right: 0;
   margin-bottom: 10px;
-  text-align: justify;
 }
 @media (min-width: 768px) {
   .caption {
@@ -33,7 +37,6 @@ h1, h2 {
     white-space: nowrap;
     width: 0;
     overflow: hidden;
-    text-align: left;
   }
 }
 .occupation {
