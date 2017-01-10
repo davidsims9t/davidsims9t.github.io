@@ -30,11 +30,14 @@ h1, h2 {
   margin-bottom: 10px;
   width: 0;
 }
+.occupation {
+  animation-delay: 6s;
+}
 .past {
-  animation-delay: 8s;
+  animation-delay: 12s;
 }
 .current {
-  animation-delay: 16s;
+  animation-delay: 18s;
 }
 .social-media {
   opacity: 0;
