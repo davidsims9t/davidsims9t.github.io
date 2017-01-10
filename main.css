@@ -1,0 +1,62 @@
+body {
+  background-color: #222;
+  font-family: 'Inconsolata', monospace;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #eee;
+}
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+a {
+  color: #E74C3C;
+  text-decoration: none;
+}
+h1, h2 {
+  font-size: inherit;
+}
+.caption {
+  animation: typing 6s steps(40, end) forwards;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation-delay: 2s;
+  border-right: 0;
+  margin-bottom: 10px;
+  width: 0;
+}
+.past {
+  animation-delay: 8s;
+}
+.current {
+  animation-delay: 16s;
+}
+.social-media {
+  opacity: 0;
+  animation: fade-in 1s ease-in forwards;
+  transform: translateY(100%);
+}
+.social-media-list a {
+  color: #2ECC71;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes typing {
+  from {
+    width: 0;
+    border-right: 3px solid #eee;
+  }
+  to {
+    width: 100%;
+    border-right: 0;
+  }
+}
