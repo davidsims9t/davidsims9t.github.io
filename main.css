@@ -25,11 +25,10 @@ h1, h2 {
   animation: typing 6s steps(40, end) forwards;
   display: block;
   overflow: hidden;
-  /*white-space: nowrap;*/
+  white-space: nowrap;
   border-right: 0;
   margin-bottom: 10px;
   width: 0;
-  /*text-align: justify;*/
 }
 .past {
   animation-delay: 8s;
