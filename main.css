@@ -6,7 +6,7 @@ body {
   line-height: 1.25;
   color: #eee;
 }
-@media screen only and (max-width: 400px) {
+@media (max-width: 400px) {
   body {
     font-size: 16px;
   }
